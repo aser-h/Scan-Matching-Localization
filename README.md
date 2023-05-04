@@ -37,7 +37,7 @@ ___
     ./cloud_loc
 ___    
 ## Project Steps
-All of the work for the project can be found within `c3-main.cpp` in the `c3-project` folder.
+All of the work for the project can be found within `c3-main.cpp` .
 
 ### Step 1: Filter scan using voxel filter
 
