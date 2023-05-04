@@ -167,12 +167,12 @@ int main(){
 	// lidar_bp.SetAttribute("points_per_second", "250000");  //originally 500000 "lower temporal resolution but potentially higher accuracy in each point measurement"
 
 
-	lidar_bp.SetAttribute("upper_fov", "10");             
-    lidar_bp.SetAttribute("lower_fov", "-15");            
-    lidar_bp.SetAttribute("channels", "64");              
-    lidar_bp.SetAttribute("range", "20");                 
-	lidar_bp.SetAttribute("rotation_frequency", "120");     
-	lidar_bp.SetAttribute("points_per_second", "250000");  
+	lidar_bp.SetAttribute("upper_fov", "15");             
+    lidar_bp.SetAttribute("lower_fov", "-25");            
+    lidar_bp.SetAttribute("channels", "32");              
+    lidar_bp.SetAttribute("range", "30");                 
+	lidar_bp.SetAttribute("rotation_frequency", "60");     
+	lidar_bp.SetAttribute("points_per_second", "500000");  
 
 	auto user_offset = cg::Location(0, 0, 0);
 	auto lidar_transform = cg::Transform(cg::Location(-0.5, 0, 1.8) + user_offset);
