@@ -53,4 +53,6 @@ In this project, the chosen algorithm for aligning point clouds is 3D ICP algori
 ![Alt text](imgs%20&%20vids/the%20localization.gif)
 
 ### Screenshot after the car finished the 170m journey.
+
 ![Alt text](imgs%20&%20vids/Screenshot%20after%20170m%20journey.png)
+
